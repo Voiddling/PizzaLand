@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "Creator" content = "PapaPizza">
+        <meta name = "Description" content="PizzaSelection">
+        <title>PizzaHub</title>
+        <link rel="icon" href="Images/CheesyPizza.jpg" >
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1><strong>WELCOME TO PAPAS PIZZARIA!!!</strong></h1>
+        <h2><strong>COME AND PARTAKE IN OUR DELICIOUS PIZZAS</strong></h2>
+        <br>
+        <figure>
+        <img src="Images/MeatballStuffedCrust.jpg" alt="MeatballStuffedCrust"
+        title="DeliciousMeatballPizza" loading="lazy">
+        <figcaption>
+            <strong>
+                Our special Meatball Stuffed Crust is back
+            <br>on the menu!!!Come get it NOW!!!
+            </strong> 
+        </figcaption>
+        </figure>
+        <nav>
+            <ul>
+                <li>
+                    <p><a href="Biography.html">Introduction</a></p>
+                </li>
+                <li>
+                    <p><a href="#Food">Food</a></p>
+                </li>
+                <li>
+                    <p><a href="#Drinks">Drinks</a></p>
+                </li>
+                <li>
+                    <p><a href="Suggestion.html">Suggestion</a></p>
+                </li>
+                <li>
+                    <p><a href="#WorkHours">WorkHours</a></p>
+                </li>
+            </ul>
+        </nav>
+        <section id="WorkHours">
+        <h3>If you plan to take the order at our establishments
+        <br>here are our work hours
+        </h3>
+        <table>
+            <caption>Work Hours</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Day Time</th>
+                    <th scope="col">Specific Time</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td>
+                    <time datetime="08:00">8:00 am</time>-<time datetime="11:00">11:00 am</time>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                    <time datetime="12:00">12:00 am</time>-<time datetime="19:00">7:00 pm</time>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+                <td>
+                    <time datetime="19:00">7:00 pm</time>-<time datetime="22:00">10:00 pm</time>
+                </td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                <td colspan="2">
+                    Tip:Get our pizzas as early as possible 
+                <br>to ensure overall freshness.
+                </td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br>
+
+        <form action="https://httpbin.org/get">
+            
+            <section id="Food">
+            <h3>PIZZAS</h3>
+            <fieldset>
+                <legend>Pick your pizza orders here!!!</legend>
+                <p>
+                    <img src="Images/SausageBBQPizza.jpg" alt="SausageBBQPizza" width="800" height="400">
+                    <br>
+                    <input type="checkbox" name="SausagePizza" id="SausagePizza" value="SausagePizza">
+                    <label for="SausagePizza">Sausage Pizza</label>
+                    <input type="number" name="SpAmount" id="SpAmount" min="0" max="100">
+                    <label for="SpAmount">Amount</label>
+                </p>
+                <p>
+                    <img src="Images/PepperoniPizza.jpg" alt="PepperoniPizza.jpg" width="800" height="400">
+                    <br>
+                    <input type="checkbox" name="PepperoniPizza" id="PepperoniPizza" value="PepperoniPizza">
+                    <label for="PepperoniPizza">PepperoniPizza</label>
+                    <input type="number" name="PpAmount" id="PpAmount" min="0" max="100">
+                    <label for="PpAmount">Amount</label>
+                </p>
+                <p>
+                    <img src="Images/MeatballStuffedCrust.jpg" alt="MeatballStuffedCrust.jpg" width="800" height="400">
+                    <br>
+                    <input type="checkbox" name="MeatballStuffedCrust" id="MeatballStuffedCrust" value="MeatballStuffedCrust">
+                    <label for="MeatballStuffedCrust">MeatballStuffedCrust</label>
+                    <input type="number" name="MBPAmount" id="MBPAmount" min="0" max="100">
+                    <label for="MBPAmount">Amount</label>
+                </p>
+                <p>
+                    <img src="Images/CheesyPizza.jpg" alt="CheesyPizza.jpg" width="800" height="400">
+                    <br>
+                    <input type="checkbox" name="CheesyPizza" id="CheesyPizza" value="CheesyPizza">
+                    <label for="CheesyPizza">CheesyPizza</label>
+                    <input type="number" name="CEAmount" id="CEAmount" min="0" max="100">
+                    <label for="CEAmount">Amount</label>
+                </p>
+                <p>
+                    <img src="Images/BeefOnionPizza.jpg" alt="BeefOnionPizza.jpg" width="800" height="400">
+                    <br>
+                    <input type="checkbox" name="BeefOnionPizza" id="BeefOnionPizza" value="BeefOnionPizza">
+                    <label for="BeefOnionPizza">BeefOnionPizza</label>
+                    <input type="number" name="BOAmount" id="BOAmount" min="0" max="100">
+                    <label for="BOAmount">Amount</label>
+                </p>
+            
+                <p>
+                    <img src="Images/PinapplePizza.jpg" alt="PinapplePizza.jpg" width="800" height="400">
+                    <br>
+                    <input type="checkbox" name="PinapplePizza" id="PinapplePizza" value="PinapplePizza">
+                    <label for="PinapplePizza">PinapplePizza</label>
+                    <input type="number" name="PPAmount" id="PPAmount" min="0" max="100">
+                    <label for="PPAmount">Amount</label>
+                </p>
+            
+                <p>
+                    <img src="Images/BBQChickenPizza.jpg" alt="BBQChickenPizza.jpg" width="800" height="400">
+                    <br>
+                    <input type="checkbox" name="BBQChickenPizza" id="BBQChickenPizza" value="BBQChickenPizza">
+                    <label for="BBQChickenPizza">BBQChickenPizza</label>
+                    <input type="number" name="BCAmount" id="BCAmount" min="0" max="100">
+                    <label for="BCAmount">Amount</label>
+                </p>
+            
+                <p>
+                    <img src="Images/GrilledSalmonPizza.jpg" alt="GrilledSalmonPizza.jpg" width="800" height="400">
+                    <br>
+                    <input type="checkbox" name="GrilledSalmonPizza" id="GrilledSalmonPizza" value="GrilledSalmonPizza">
+                    <label for="GrilledSalmonPizza">GrilledSalmonPizza</label>
+                    <input type="number" name="GPAmount" id="GPAmount" min="0" max="100">
+                    <label for="GPAmount">Amount</label>
+                </p>
+            
+                <p>
+                    <img src="Images/PizzaOmelette.jpg" alt="PizzaOmelette.jpg" width="800" height="400">
+                    <br>
+                    <input type="checkbox" name="PizzaOmelette" id="PizzaOmelette" value="PizzaOmelette">
+                    <label for="PizzaOmelette">PizzaOmelette</label>
+                    <input type="number" name="POAmount" id="POAmount" min="0" max="100">
+                    <label for="POAmount">Amount</label>
+                </p>
+            
+                <p>
+                    <img src="Images/MeatLoversPizza.jpg" alt="MeatLoversPizza.jpg" width="800" height="400">
+                    <br>
+                    <input type="checkbox" name="MeatLoversPizza" id="MeatLoversPizza" value="MeatLoversPizza">
+                    <label for="MeatLoversPizza">MeatLoversPizza</label>
+                    <input type="number" name="MLAmount" id="MLAmount" min="0" max="100">
+                    <label for="MLAmount">Amount</label>
+                </p>
+            </fieldset>
+            </section>
+           
+            <section id="Drinks">
+                <h3>DRINKS</h3>
+                <fieldset>
+                    <legend>Get your drinks to go along with your meal!!!</legend>
+                    <p>
+                        <img src="Images/Drinks/ChocoChipFrap.jpg" alt="ChocoChipFrap" width="600" height="400">
+                        <br>
+                        <input type="checkbox" name="ChocoChipFrap" id="ChocoChipFrap" value="ChocoChipFrap">
+                        <label for="ChocoChipFrap">ChocoChipFrap</label>
+                        <input type="number" name="CCFAmount" id="CCFAmount" min="0" max="100">
+                        <label for="CCFAmount">Amount</label>
+                    </p>
+                    <p>
+                        <img src="Images/Drinks/FruitySodaFloat.jpg" alt="FruitySodaFloat" width="350" height="525">
+                        <br>
+                        <input type="checkbox" name="FruitySodaFloat" id="FruitySodaFloat" value="FruitySodaFloat">
+                        <label for="FruitySodaFloat">FruitySodaFloat</label>
+                        <input type="number" name="FSFAmount" id="FSFAmount" min="0" max="100">
+                        <label for="FSFAmount">Amount</label>
+                    </p>
+                    <p>
+                        <img src="Images/Drinks/HotChoco.jpg" alt="HotChoco" width="600" height="900">
+                        <br>
+                        <input type="checkbox" name="HotChoco" id="HotChoco" value="HotChoco">
+                        <label for="HotChoco">HotChoco</label>
+                        <input type="number" name="HCAmount" id="HCAmount" min="0" max="100">
+                        <label for="HCAmount">Amount</label>
+                    </p>
+                    <p>
+                        <img src="Images/Drinks/StrawberrySmoothie.jpg" alt="StrawberrySmoothie" width="800" height="400">
+                        <br>
+                        <input type="checkbox" name="StrawberrySmoothie" id="StrawberrySmoothie" value="StrawberrySmoothie">
+                        <label for="StrawberrySmoothie">StrawberrySmoothie</label>
+                        <input type="number" name="SSAmount" id="SSAmount" min="0" max="100">
+                        <label for="SSAmount">Amount</label>
+                    </p>
+                </fieldset>
+            </section>
+            <button type="submit" formaction="https://httpbin.org/post"  formmethod="post">ORDER</button>
+            <button type="reset">RESET</button>
+        </form>
+    </body>
+</html>
